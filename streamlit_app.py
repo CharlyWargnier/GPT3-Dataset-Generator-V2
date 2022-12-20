@@ -86,8 +86,6 @@ with tabTo_dos:
     with st.expander("To-do", expanded=True):
         st.write(
             """
-        - [p1] Please move the Python file from the secondary branch to the main branch.
-        - [p2] On Github, remove any unused images and GIFs.
         - [p2] Currently, the results are displayed even if the submit button isn't pressed.
         - [p2] There is still an issue with the index where the first element from the JSON is not being displayed.
         - [Post Hackathon] To limit the number of API calls and costs, let's cap the maximum number - of results to 5. Alternatively, we can consider removing the free API key.
@@ -100,6 +98,7 @@ with tabTo_dos:
         st.write(
             """
         - [p2] Check if the Json file is working
+        - [p2] On Github, remove any unused images and GIFs.
         - [p1] Add that for postgress - localhost is required
         - [p2] Rename the CSV and JSON as per the st-pills variable
         - [p2] Change the color of the small arrow
